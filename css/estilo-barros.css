@@ -1,0 +1,178 @@
+/*!
+ * Folha de Estilos CSS3
+ * criado por Matheus Freitas
+ * para o site Barros Corretora
+/*! -------------------------- */
+
+/*! Chamando o endereço das famílias de fontes */
+@font-face {
+	font-family: 'Open-sans-regular';
+	font-style: normal, sans-serif;
+	font-weight: normal;
+	src: local('../fonts/opensans-regular.ttf'),
+	url('../fonts/opensans-regular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Open-sans-light';
+	font-style: normal, sans-serif;
+	font-weight: normal;
+	src: local('../fonts/opensans-light.ttf'),
+	url('../fonts/opensans-light.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Open-sans-bold';
+	font-style: bold, sans-serif;
+	font-weight: bold;
+	src: local('../fonts/opensans-bold.ttf'),
+	url('../fonts/opensans-bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Glyphicons';
+    src: local('../fonts/glyphicons-halflings-regular.ttf'),
+    url('../fonts/glyphicons-halflings-regular.ttf') format('ttf');
+
+} /*! encerrando as famílias de fontes
+
+
+/*! ------ Iniciando os estilos CSS3 da homepage ----- */
+body{
+    font-family: 'Open-sans-regular', sans-serif;
+    font-style: normal;
+    padding-top: 70px;
+    line-height: 25px;
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*! Estilos do Menu de Navegação */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.navegador{
+    background-color: #762627;
+}
+
+
+/*! Estilos das seções de imagens de fundo */
+.image-fundo{
+    width: 100%;
+    overflow: hidden;
+    height: 470px;
+}
+
+.container {
+    width: 100%;
+}
+
+
+/*! Estilos da Seção de Destaques */
+.destacado {
+    font-family: 'Open-sans-bold', sans-serif;
+    color: #981c26;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.glyphcolor{
+    color: #981c26;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.imagemDestaq{
+    align-self: flex-end;
+}
+    
+.destaques{
+    padding-top: 25px;
+}
+
+.alinhado-esq{
+    text-align: left;
+}
+
+.glyphicon-plus:before {
+    color: #9a3235;
+}
+
+
+
+/*! Estilos da Janela Modal */
+.modal-header {
+    background-color: #9a3235;
+    color: #fff;
+}
+
+.fechar {
+    color: #9a3235;
+    background-color: #fff;
+    padding: 6px;
+    margin: -6px;
+}
+
+.mostrando{
+        display: flex;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #762627;
+    border-color: #762627;
+    opacity: 1;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #9a3235;
+    border-color: #fff;
+    opacity: .7;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
+
+/*! Estilos do rodapé da página */
+footer{
+    font-family: 'Open-sans-regular', sans-serif;
+    font-style: normal;
+    padding: 17px 2px 0 0;
+    margin-top: -4px;
+    background-color: #282828;
+    color: #fff;
+    text-align: center;
+}
+
+.rodape {
+    color: #fff;
+    position: absolute;
+    
+}
+
+.rodape :hover {
+    color: #bf6164;
+    text-decoration: none;
+}
+
+/*! /encerrando a folha de estilos CSS3 */
+
+
+
+
